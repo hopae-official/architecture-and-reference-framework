@@ -17,7 +17,7 @@ Designed to support the full spectrum of digital identity use cases, from creden
 1. **Install dependencies**
 
    ```bash
-   pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-minify-plugin mkdocs-material[recommended]
+   pip install -r requirements.txt
    ```
 
 2. **Run development server**

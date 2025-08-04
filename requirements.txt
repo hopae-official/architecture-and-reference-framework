@@ -1,0 +1,9 @@
+mkdocs
+mkdocs-material
+mike
+mkdocs-glightbox
+pymdown-extensions
+neoteroi-mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-material[recommended]
