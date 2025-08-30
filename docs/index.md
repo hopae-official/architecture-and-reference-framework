@@ -27,6 +27,11 @@ This repository contains:
 
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-## License
+## Contributing
 
-Apache License 2.0
+This project is maintained and led by Hopae as the primary maintainer.
+It is conducted as part of a national R&D initiative funded by IITP, in collaboration with ETRI and the Financial Security Institute (FSI).
+
+As an open-source and public project, we actively welcome contributions to ARF.
+Whether you are fixing a bug, proposing a new feature, or improving documentation, your efforts are highly valued.
+Contributors are encouraged to share ideas, suggest improvements, and participate in discussions through this repository to help shape and advance the ARF together.
