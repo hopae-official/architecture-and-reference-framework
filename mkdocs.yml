@@ -1,4 +1,4 @@
-site_name: Architecture and Reference Framework
+site_name: Digital Identity Ecosystem
 repo_name: hopae-official/architecture-and-reference-framework
 repo_url: https://github.com/hopae-official/architecture-and-reference-framework
 edit_uri: edit/main/docs/
@@ -32,6 +32,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.path
     - navigation.sections
+    - navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -39,6 +40,7 @@ theme:
     - search.highlight
     - search.suggest
     - toc.follow
+    - toc.integrate
 markdown_extensions:
   - abbr
   - admonition
@@ -93,5 +95,9 @@ extra:
       link: https://github.com/hopae-official/architecture-and-reference-framework/blob/main/CONTRIBUTING.md
 
 nav:
-  - Architecture:
-      - What is ARF: index.md
+  - Digital Identity: overview.md
+  - Architecture and Reference Framework: arf.md
+  - Discussions: discussions.md
+  - Technical Specifications: techspec.md
+  - LSP: lsp.md
+  - Reference System: refsystem.md
