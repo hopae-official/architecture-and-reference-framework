@@ -27,8 +27,16 @@ Designed to support the full spectrum of digital identity use cases, from creden
    ```
 
 3. **Edit documentation**
+
    - Documentation files are in the `docs/` folder
    - Changes auto-reload in your browser at `http://127.0.0.1:8000`
+
+4. **Deploy new version**
+   ```bash
+   mike deploy <version> latest // <version> is the version number
+   mike serve // you can check it in local env
+   mike deploy <version> latest --push // deploy to github pages
+   ```
 
 ### Writing Guidelines
 
