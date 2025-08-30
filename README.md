@@ -1,6 +1,6 @@
 # Architecture Reference Framework: The Digital Identity Ecosystem
 
-ARF provides a world-class Architecture Reference Framework for digital identity solutions. Built to global standards, it serves as the foundation for secure, interoperable, and scalable digital identity implementations.
+ARF provides a world-class Architecture Reference Framework for digital identity solutions. Built to global standards, it serves as the foundation for secure, privacy-by-design, interoperable, and scalable digital identity implementations.
 
 Designed to support the full spectrum of digital identity use cases, from credential issuance to verification workflows. As a comprehensive reference architecture, it delivers:
 
