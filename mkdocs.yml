@@ -95,7 +95,7 @@ extra:
       link: https://github.com/hopae-official/architecture-and-reference-framework/blob/main/CONTRIBUTING.md
 
 nav:
-  - Digital Identity: overview.md
+  - Digital Identity: index.md
   - Architecture and Reference Framework: arf.md
   - Discussions: discussions.md
   - Technical Specifications: techspec.md
