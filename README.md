@@ -8,7 +8,7 @@ Designed to support the full spectrum of digital identity use cases, from creden
 - **Production-Ready Architecture** - Enterprise-grade scalability and security
 - **Interoperability** - Seamless integration across different wallet implementations
 - **Extensible Framework** - Modular design for diverse deployment scenarios
-- **Privacy-by-Design** - Built-in privacy features and compliance with data protection regulations
+- **Privacy-by-Design** - Built-in privacy features
 
 ## Contributing to Documentation
 
