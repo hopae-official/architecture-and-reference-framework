@@ -1,15 +1,32 @@
 # Digital Identity
 
+Digital identity is the essential means by which individuals, organizations, and things can prove themselves and engage in trusted interactions within digital environments.
+It goes beyond simple identification, encompassing security, privacy protection, and interoperability as part of a comprehensive trust framework.
+
 ## Architecture and Reference Framework
+
+The Architecture and Reference Framework (ARF) defines the structural guidelines and reference model for designing and implementing a digital identity ecosystem.
+It does not prescribe specific technologies, rather, it provides an abstract and generalized framework that enables diverse implementations to remain interoperable.
+
+This document is not bound to the legal or regulatory frameworks of any specific country or region. Instead, it is based on general and globally reusable principles.
+
+Its purpose is to provide adopters of digital identity systems with a common reference point for deciding what level of assurance to adopt and which technical approaches to use.
 
 ## Contents of the repository
 
-## Contributing
+This repository contains:
+
+- "[Architecture and Reference Framework](arf.md)" the main document that describes the architecture of the digital identity ecosystem.
+- "Appendix" the list of documents that provide additional information about the architecture. In particular, it provides normative high-level requirements.
+- "[Discussions](discussions.md)" the list of discussion topics that are currently being discussed.
+- "[Technical Specifications](techspec.md)" the list of technical specifications.
+- "[LSP](lsp.md)" the description of large scale pilot (LSP) project.
+- "[Reference System](refsystem.md)" the list of reference system implementation as a open source project.
 
 ## Versioning
 
-## Authors
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ## License
 
-## About us
+Apache License 2.0
