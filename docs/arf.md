@@ -40,7 +40,7 @@ Rather than prescribing detailed technical implementations or legal rules, the d
 
 ### 1.4 Terminology
 
-See Appendix A for the list of terms used in this document.
+See [Appendix A](appendix/a.terminologies.md) for the list of terms used in this document.
 
 ## 2. Wallet Functionalities
 

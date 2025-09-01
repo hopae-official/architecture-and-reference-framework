@@ -1,0 +1,21 @@
+# Appendix A – Terminology
+
+- **Attribute** — A single piece of information about the Holder contained within a credential (e.g., age, nationality, qualification).
+- **Authentication Factors** — Categories of elements used to verify identity: possession (something you have), knowledge (something you know), and inherence (something you are).
+- **Assurance Levels** — The degree of confidence that can be placed in the identity proofing, authentication, or transaction process.
+- **Credential Issuer** — An entity authorized to issue credentials (e.g., government, university, bank).
+- **Digital Credential** — A digitally signed statement about a Holder, issued by a trusted entity (such as a diploma, license, or ID card).
+- **Digital Identity Wallet (Wallet)** — A secure, user-controlled environment used to store, manage, and present digital identity data and credentials.
+- **Digital Signature / Seal** — A cryptographic mechanism ensuring integrity, authenticity, and non-repudiation of digital data or transactions.
+- **Identity Holder (Holder, User, Subject)** — The individual or organization that possesses and controls a digital wallet and its credentials.
+- **Identity Provider (IdP)** — An entity responsible for issuing and managing digital identities and associated credentials.
+- **Relying Party (RP)** — The entity that requests and uses verified credentials to provide a service or transaction.
+- **Verifier** — The entity that performs the technical validation of credentials, which may be the RP itself or a separate entity acting on its behalf.
+- **Intermediary** — An optional actor that facilitates interactions between Holders, Verifiers, and RPs, for example by routing requests or enforcing cross-domain trust policies.
+- **Interoperability** — The ability of identity systems and wallets to function across jurisdictions, technologies, and organizational boundaries.
+- **Pseudonym** — A derived identifier that allows a Holder to interact with a Relying Party without revealing their actual identity.
+- **Selective Disclosure** — A privacy-preserving mechanism allowing the Holder to reveal only specific attributes from a credential.
+- **Trust Framework** — A set of policies, standards, and agreements governing how entities in the ecosystem interoperate securely.
+- **Certification** — A formal process by which wallets, issuers, or Relying Parties are validated against compliance requirements.
+- **Risk Management** — The identification, assessment, and mitigation of risks related to digital identity systems.
+- **Verifiable Credential (VC)** — A tamper-evident digital credential based on open standards and cryptographically verifiable.
