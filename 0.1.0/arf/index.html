@@ -506,6 +506,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#14-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Terminology
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -517,6 +526,93 @@
       2. Wallet Functionalities
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="2. Wallet Functionalities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identification-and-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Identification and Authentication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-attribute-presentation-with-selective-disclosure" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Attribute Presentation with Selective Disclosure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-digital-signature" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Digital Signature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-pseudonyms" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Pseudonyms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-organizational-wallet" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5 Organizational Wallet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-payment" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Payment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-travel-and-mobility" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7 Travel and Mobility
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-health-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8 Health Credentials
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-education-and-professional-qualifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9 Education and Professional Qualifications
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -761,8 +857,29 @@ It is intended to:</p>
 <li>Designs tied to vendor-specific solutions or platforms</li>
 <li>Operational procedures and management guidelines for deployment</li>
 </ul>
+<h3 id="14-terminology">1.4 Terminology<a class="headerlink" href="#14-terminology" title="Permanent link">&para;</a></h3>
+<p>See Appendix A for the list of terms used in this document.</p>
 <h2 id="2-wallet-functionalities">2. Wallet Functionalities<a class="headerlink" href="#2-wallet-functionalities" title="Permanent link">&para;</a></h2>
-<p>TBD</p>
+<p>This chapter describes the core functionalities of digital identity wallets within broader identity ecosystems. Wallets serve as secure, user-controlled environments that allow individuals and organizations to manage and present identification data and credentials across both public and private services.</p>
+<p>The functionalities outlined here are centered on principles of security, privacy, and user empowerment. They illustrate how wallets can support real-world interactions such as accessing government services, proving qualifications, or conducting payments while ensuring trust, interoperability, and protection of personal data.</p>
+<h3 id="21-identification-and-authentication">2.1 Identification and Authentication<a class="headerlink" href="#21-identification-and-authentication" title="Permanent link">&para;</a></h3>
+<p>Digital wallets enable individuals to authenticate themselves across a wide range of services, from community platforms to government portals and financial institutions. Authentication can combine possession of the device with additional factors such as biometrics or PINs, giving flexibility across different assurance levels. Users also benefit from transparency through access to their authentication and transaction history.</p>
+<h3 id="22-attribute-presentation-with-selective-disclosure">2.2 Attribute Presentation with Selective Disclosure<a class="headerlink" href="#22-attribute-presentation-with-selective-disclosure" title="Permanent link">&para;</a></h3>
+<p>Wallets allow users to share only the specific information required by a relying party. For example, when proving age, a user can disclose “over 18” without revealing their full date of birth. This selective disclosure enhances privacy, while cryptographic mechanisms ensure that activity cannot be correlated across different services.</p>
+<h3 id="23-digital-signature">2.3 Digital Signature<a class="headerlink" href="#23-digital-signature" title="Permanent link">&para;</a></h3>
+<p>Wallets provide the ability to create digital signatures for agreements, transactions, or approvals. These signatures can be bound to specific contexts such as a contract amount, counterparty, or date ensuring integrity, legal validity, and trust in digital interactions.</p>
+<h3 id="24-pseudonyms">2.4 Pseudonyms<a class="headerlink" href="#24-pseudonyms" title="Permanent link">&para;</a></h3>
+<p>Wallets can generate service specific pseudonyms that allow users to engage with different platforms without being tracked across them. This supports privacy preserving authentication while still enabling strong security, for example through integration with passkeys or WebAuthn.</p>
+<h3 id="25-organizational-wallet">2.5 Organizational Wallet<a class="headerlink" href="#25-organizational-wallet" title="Permanent link">&para;</a></h3>
+<p>In addition to personal use, wallets can represent organizations and allow delegation of rights. An employee may act on behalf of their company, or a public official may sign a document in the name of their agency. Such delegations are verifiable, providing clarity and accountability in organizational processes.</p>
+<h3 id="26-payment">2.6 Payment<a class="headerlink" href="#26-payment" title="Permanent link">&para;</a></h3>
+<p>Wallets can integrate identity with payment capabilities, enabling streamlined experiences where verification and payment occur in one flow. Examples include online shopping, where a user verifies their age, completes payment, and confirms delivery details all within the wallet, or paying public fees through digital currency or open banking connections.</p>
+<h3 id="27-travel-and-mobility">2.7 Travel and Mobility<a class="headerlink" href="#27-travel-and-mobility" title="Permanent link">&para;</a></h3>
+<p>Wallets can hold credentials related to travel and mobility, such as electronic passports, visas, or driving licenses. Travelers may use their wallet for identity verification at airport checkpoints or to confirm driving eligibility when renting a car. This reduces reliance on physical documents and creates more seamless travel experiences.</p>
+<h3 id="28-health-credentials">2.8 Health Credentials<a class="headerlink" href="#28-health-credentials" title="Permanent link">&para;</a></h3>
+<p>Wallets can securely store and present health-related credentials, such as vaccination records, insurance entitlements, or medical summaries. These can be used for international travel, accessing healthcare services, or simplifying insurance verification. Users gain efficiency while maintaining control over sensitive health information.</p>
+<h3 id="29-education-and-professional-qualifications">2.9 Education and Professional Qualifications<a class="headerlink" href="#29-education-and-professional-qualifications" title="Permanent link">&para;</a></h3>
+<p>Wallets can carry digital representations of diplomas, transcripts, and professional licenses. Graduates can quickly prove their degrees to employers, and professionals can demonstrate their qualifications abroad. This reduces fraud, streamlines hiring, and builds trust in educational and professional achievements.</p>
 <h2 id="3-wallet-ecosystem">3. Wallet Ecosystem<a class="headerlink" href="#3-wallet-ecosystem" title="Permanent link">&para;</a></h2>
 <p>TBD</p>
 <h2 id="4-high-level-architecture">4. High-Level Architecture<a class="headerlink" href="#4-high-level-architecture" title="Permanent link">&para;</a></h2>
