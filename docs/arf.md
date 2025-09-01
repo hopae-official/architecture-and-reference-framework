@@ -104,11 +104,15 @@ TBD
 
 TBD
 
-## 8. Risk Management
+## 8. Assurance Levels
 
 TBD
 
-## 9. Certification
+## 9. Risk Management
+
+TBD
+
+## 10. Certification
 
 TBD
 
